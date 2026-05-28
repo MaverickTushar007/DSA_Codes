@@ -13,6 +13,6 @@ void pip(int n)
 
 int main()
 {   cout<<endl;
-    pip(4);
+    pip(2);
     cout << endl;
 }
