@@ -25,7 +25,7 @@ void subsets(string s, int idx, string ans, vector<string> &res)
 
 int main()
 {
-    string s = "aaabbc";
+    string s = "aa c";
     sort(s.begin(), s.end()); // important
 
     vector<string> res;

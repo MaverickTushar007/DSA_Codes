@@ -37,10 +37,12 @@ void mergeSort(vector<int>& v){
         a[i] = v[i];
     for (int i = 0; i < n2; i++)
         b[i] = v[i+n1];
+
     //magic_recursion
     mergeSort(a);
     mergeSort(b);
-    //merge
+
+    //merge 
     merge(a,b,v);
     a.clear();
     b.clear();

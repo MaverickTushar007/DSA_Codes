@@ -13,7 +13,7 @@ void subsets(vector<int> ans, int v[], int idx, int n)
         }
         cout << endl;
         return;
-    }
+    }         
     subsets(ans, v, idx + 1, n);
     ans.push_back(v[idx]);
     subsets(ans, v, idx + 1, n);

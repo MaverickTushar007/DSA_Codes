@@ -1,8 +1,13 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-int c = 0;
+int c = 0; //global variable
 
+/*
+    Two elements of an array a, a [il and aljl form an inversion if a [i] › a [jl and i ‹ j. 
+    Given an array of integers. Find the Inversion Count in the array.
+
+*/
 int inversion(vector<int> &a, vector<int> &b)
 {
     int count = 0;
